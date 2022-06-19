@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/dist/client/image";
-import IcPaper from "../assets/paper.png";
-import IcMetode from "../assets/Methode.png";
 
 export default function WhyUSItems({ image, title, description, variant }) {
   const variants = {

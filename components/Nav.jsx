@@ -1,8 +1,6 @@
 import React from "react";
 import NavItem from "./NavItem";
 import Button from "./Button";
-import Image from "next/image";
-import oyo from "../assets/OYO_Logo.png";
 
 export default function Nav() {
   return (
