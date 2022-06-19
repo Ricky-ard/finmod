@@ -8,9 +8,9 @@ import IcDollar from "../assets/Dollar.png";
 
 export default function WhyUsSection() {
   return (
-    <section className="mb-16">
+    <section className="mb-16 px:5">
       <div className="flex justify-center">
-        <div className="w-5/12">
+        <div className="md:w-5/12">
           <h1 className=" text-center text-4xl font-bold mb-7">
             Mengapa Harus Kami
           </h1>
@@ -21,7 +21,7 @@ export default function WhyUsSection() {
           </p>
         </div>
       </div>
-      <div className="flex px-20 gap-28 flex-wrap">
+      <div className="flex px-20 lg:gap-28 md:gap-12 flex-wrap">
         <WhyUSItems
           variant={"lime"}
           image={IcMetode}

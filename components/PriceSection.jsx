@@ -4,9 +4,9 @@ import PriceItem from "./PriceItem";
 
 export default function PriceSection() {
   return (
-    <section className="px-36 mb-20">
-      <div className="flex justify-between mb-20">
-        <div className="flex items-center w-2/12">
+    <section className="lg:px-36 md:px-20 px-5 mb-20">
+      <div className="lg:flex justify-between mb-20">
+        <div className="flex items-center lg:w-2/12 w-full justify-center ">
           <div className="py-3 px-10 bg-light-blue text-white-bone rounded-l-lg font-semibold inline-block">
             Yearly
           </div>
@@ -14,11 +14,11 @@ export default function PriceSection() {
             Monthly
           </div>
         </div>
-        <div className="w-7/12 text-6xl font-semibold">
+        <div className="lg:w-7/12 w-full lg:text-6xl text-4xl font-semibold lg:text-left text-center">
           Penilain yang tepat untuk rencana kedepan
         </div>
       </div>
-      <div className="flex justify-center gap-9">
+      <div className="flex justify-center gap-9 flex-wrap">
         <PriceItem
           variant={"white"}
           text1="Starter"

@@ -25,10 +25,10 @@ export default function PriceItem({
   return (
     <>
       <div
-        className={`text-center w-3/12  px-3 py-10 flex flex-col rounded-md gap-4  ${pickedVariant}`}
+        className={`text-center lg:w-3/12 md:w-4/12 w-full  px-3 py-10 flex flex-col rounded-md gap-4  ${pickedVariant}`}
       >
         <p className="text-base font-semibold opacity-50">{text1}</p>
-        <h1 className="text-5xl font-bold mb-5">{price}</h1>
+        <h1 className="text-4xl font-bold mb-5">{price}</h1>
         <p className="text-base font-semibold opacity-50">{text2}</p>
         <p className="text-base font-semibold opacity-50">{text3}</p>
         <p className="text-base font-semibold opacity-50 mb-4">{text4}</p>

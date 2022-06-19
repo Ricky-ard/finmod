@@ -5,12 +5,12 @@ import BigButton from "./BigButton";
 
 export default function PlatformSection() {
   return (
-    <section className="px-14">
-      <div className="flex items-center justify-between">
-        <div className="w-5/12">
+    <section className="lg-px-14 px-5 mb-10">
+      <div className="md:flex items-center justify-between">
+        <div className="md:w-5/12 w-full">
           <Image src={laptop} layout="responsive" className={"image"} />
         </div>
-        <div className="w-5/12">
+        <div className="lg:w-5/12 md:w-6/12 w-full">
           <h1 className="text-4xl font-bold mb-10">
             Platform Sangat Mudah Untuk Digunakan
           </h1>

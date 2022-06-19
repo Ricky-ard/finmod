@@ -15,7 +15,7 @@ export default function BigButton({ className, variant, children }) {
 
   return (
     <a
-      className={`px-8 py-3  font-lg text-lg inline-block  ${pickedVariant} ${addClassName}`}
+      className={`lg:px-8 lg:py-3 md:py-2 md:px-6 px-5 py-2 font-lg lg:text-lg md:text-base inline-block   ${pickedVariant} ${addClassName}`}
     >
       {children}
     </a>

@@ -12,7 +12,7 @@ export default function WhyUSItems({ image, title, description, variant }) {
 
   return (
     <>
-      <div className="w-3/12 py-14 px-6 rounded-lg text-center flex flex-col justify-center mx-auto hover:bg-white hover:shadow-2xl">
+      <div className="lg:w-3/12 md:w-5/12 w-full py-14 px-6 rounded-lg text-center flex flex-col justify-center mx-auto hover:bg-white hover:shadow-2xl">
         <div
           className={`w-16 mx-auto h-16 flex items-center justify-center rounded-md mb-5 ${pickedVariant} `}
         >

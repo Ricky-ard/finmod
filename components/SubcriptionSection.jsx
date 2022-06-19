@@ -5,12 +5,12 @@ export default function SubcriptionSection() {
   return (
     <section>
       <div
-        className="lg:h-[450px] md:h-[399px] h-40 bg-no-repeat bg-cover"
+        className="lg:h-[450px] md:h-[399px] h-200 bg-no-repeat bg-cover"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("/Bg-subcription.png")`,
         }}
       >
-        <div className=" w-5/12 mx-auto py-20">
+        <div className=" lg:w-5/12 md:w-7/12 w-full px-7 mx-auto py-20">
           <div className="text-center  ">
             <h1 className="text-4xl text-white font-semibold mb-8">
               Mau Coba Gratis?

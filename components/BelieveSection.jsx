@@ -4,9 +4,9 @@ import Image from "next/dist/client/image";
 
 export default function BelieveSection() {
   return (
-    <section className="px-14 mb-20">
-      <div className="flex justify-between items-center">
-        <div className="w-5/12">
+    <section className="lg-px-14 px-5 mb-32">
+      <div className="md:flex justify-between items-center">
+        <div className="lg:w-5/12 w-full">
           <h1 className="text-4xl font-bold mb-10">
             Kami Dipercaya banyak Startup & UMKM Indonesia
           </h1>
@@ -30,7 +30,7 @@ export default function BelieveSection() {
             </div>
           </div>
         </div>
-        <div className="w-5/12">
+        <div className="lg:w-5/12 w-full">
           <Image src={StartupMan} layout="responsive" className={"image"} />
         </div>
       </div>

@@ -5,11 +5,11 @@ import Button from "./Button";
 export default function Nav() {
   return (
     <>
-      <nav className="fixed z-10 w-full pb-2 px-36">
+      <nav className="fixed z-10 w-full pb-2 lg:px-36 md:px-20 px-5 ">
         <div className="container mx-auto mt-5 ">
           <div className="flex items-center justify-between">
             <h1 className="text-lg font-bold text-slate-900">Finmod.id</h1>
-            <div className="w-6/12">
+            <div className="lg:w-6/12 ">
               <ul className="flex justify-center space-x-7 ">
                 <NavItem>Home</NavItem>
                 <NavItem>About</NavItem>
