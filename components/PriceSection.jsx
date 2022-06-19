@@ -4,7 +4,7 @@ import PriceItem from "./PriceItem";
 
 export default function PriceSection() {
   return (
-    <section className="px-36">
+    <section className="px-36 mb-20">
       <div className="flex justify-between mb-20">
         <div className="flex items-center w-2/12">
           <div className="py-3 px-10 bg-light-blue text-white-bone rounded-l-lg font-semibold inline-block">
