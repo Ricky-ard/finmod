@@ -1,9 +1,9 @@
 import React from "react";
 import BigButton from "./BigButton";
-import IcFb from "../assets/facebook icon.png";
+import IcFb from "../assets/Facebook icon.png";
 import IcIg from "../assets/Instagram icon.png";
 import IcLinkedIn from "../assets/linkedin icon.png";
-import Startup from "../assets/startup.png";
+import Startup from "../assets/Startup.png";
 import Image from "next/dist/client/image";
 import Frame from "../assets/Frame 108.png";
 

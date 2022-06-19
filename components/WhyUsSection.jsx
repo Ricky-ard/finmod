@@ -1,6 +1,6 @@
 import React from "react";
 import WhyUSItems from "./WhyUSItems";
-import IcPaper from "../assets/paper.png";
+import IcPaper from "../assets/Paper.png";
 import IcMetode from "../assets/Methode.png";
 import IcAccurate from "../assets/accurate.png";
 import IcEdit from "../assets/Edit Square.png";
