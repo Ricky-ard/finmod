@@ -8,6 +8,7 @@ import CountrySection from "../components/CountrySection";
 import ClientsaySection from "../components/ClientSaySection";
 import PartnerSection from "../components/PartnerSection";
 import PriceSection from "../components/PriceSection";
+import SubcriptionSection from "../components/SubcriptionSection";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <ClientsaySection />
       <PartnerSection />
       <PriceSection />
+      <SubcriptionSection />
     </>
   );
 }
