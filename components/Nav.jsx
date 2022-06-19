@@ -7,7 +7,7 @@ import oyo from "../assets/OYO_Logo.png";
 export default function Nav() {
   return (
     <>
-      <div className="fixed  w-full pb-2 px-36">
+      <div className="fixed z-10 w-full pb-2 px-36">
         <div className="container mx-auto mt-5 ">
           <div className="flex items-center justify-between">
             <h1 className="text-lg font-bold text-slate-900">Finmod.id</h1>

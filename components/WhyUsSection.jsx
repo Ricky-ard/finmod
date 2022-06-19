@@ -9,7 +9,7 @@ import IcDollar from "../assets/Dollar.png";
 
 export default function WhyUsSection() {
   return (
-    <section>
+    <section className="mb-16">
       <div className="flex justify-center">
         <div className="w-5/12">
           <h1 className=" text-center text-4xl font-bold mb-7">
