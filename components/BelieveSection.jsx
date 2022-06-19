@@ -4,7 +4,7 @@ import Image from "next/dist/client/image";
 
 export default function BelieveSection() {
   return (
-    <section className="px-10">
+    <section className="px-14 mb-20">
       <div className="flex justify-between items-center">
         <div className="w-5/12">
           <h1 className="text-4xl font-bold mb-10">

@@ -4,6 +4,9 @@ import HeroSection from "../components/HeroSection.jsx";
 import WhyUsSection from "../components/WhyUsSection.jsx";
 import PlatformSection from "../components/PlatformSection";
 import BelieveSection from "../components/BelieveSection";
+import CountrySection from "../components/CountrySection";
+import ClientsaySection from "../components/ClientSaySection";
+import PartnerSection from "../components/PartnerSection";
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
       <WhyUsSection />
       <PlatformSection />
       <BelieveSection />
+      <CountrySection />
+      <ClientsaySection />
+      <PartnerSection />
     </>
   );
 }
