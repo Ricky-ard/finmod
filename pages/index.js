@@ -9,6 +9,7 @@ import ClientsaySection from "../components/ClientSaySection";
 import PartnerSection from "../components/PartnerSection";
 import PriceSection from "../components/PriceSection";
 import SubcriptionSection from "../components/SubcriptionSection";
+import Footer from "../components/Footer.jsx";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <PartnerSection />
       <PriceSection />
       <SubcriptionSection />
+      <Footer />
     </>
   );
 }
