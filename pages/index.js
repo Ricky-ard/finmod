@@ -7,6 +7,7 @@ import BelieveSection from "../components/BelieveSection";
 import CountrySection from "../components/CountrySection";
 import ClientsaySection from "../components/ClientSaySection";
 import PartnerSection from "../components/PartnerSection";
+import PriceSection from "../components/PriceSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <CountrySection />
       <ClientsaySection />
       <PartnerSection />
+      <PriceSection />
     </>
   );
 }
